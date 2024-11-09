@@ -1930,8 +1930,8 @@ main.touch .main-wrap {
 }
 
 .digital-ball {
-    width: clamp(8em, 10vw, 10em);
-    height: clamp(8em, 10vw, 10em);
+    width: clamp(6em, 8vw, 8em);
+    height: clamp(6em, 8vw, 8em);
     background: var(--color-dark);
     border-radius: 50%;
     top: 0;
@@ -1968,8 +1968,8 @@ main.touch .main-wrap {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 3em;
-    height: 3em;
+    width: 2.4em;
+    height: 2.4em;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     overflow: hidden;
@@ -2086,6 +2086,7 @@ main.touch .main-wrap {
 .about-image {
     padding-top: calc(var(--section-padding) * 0.75);
     background: var(--color-white);
+    padding-bottom: 40px;
 }
 
 .about-image .bottom-lightgray {
@@ -2211,12 +2212,9 @@ main.touch .main-wrap {
     }
 
     .single-about-image .overlay:nth-child(1) {
-        width: 130%;
-        left: -30%;
-        width: 100%;
-        left: 0;
-        top: -18%;
-        height: 120%;
+        width: 140%;
+        left: 53%;
+        transform: translateX(-50%);
     }
 
     .about-image .flex-col:nth-child(1) {
@@ -2408,11 +2406,7 @@ main.touch .main-wrap {
 }
 
 .about-awwwards .single-image .overlay:nth-child(1) {
-    background: url("../imgs/about-2.webp") no-repeat center center/cover;
-    background-size: cover;
-    top: -3%;
-    height: 100%;
-    width: 100%;
+    background: url("../imgs/about-2.webp") no-repeat bottom left/cover;
     /* left: -40%; */
 }
 
@@ -2462,7 +2456,7 @@ main.touch .main-wrap {
     }
     .about-awwwards .flex-col:nth-child(1) {
         width: 100%;
-        padding-right: 0;
+        padding-left: 0;
     }
 
     .about-awwwards .flex-col:nth-child(2) {
@@ -2478,11 +2472,6 @@ main.touch .main-wrap {
 
     .about-awwwards .single-image .overlay:nth-child(1) {
         background: url("../imgs/about-2.webp") no-repeat center center/cover;
-        background-size: cover;
-        top: -8%;
-        height: 110%;
-        width: 150%;
-        left: -50%;
     }
 }
 
