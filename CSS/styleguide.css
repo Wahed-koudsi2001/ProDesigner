@@ -1,63 +1,14 @@
 /* ------------------------- Styleguide Â® Code by Wahed -------------------------------------------------- */
 
-/* ------------------------- Fonts -------------------------------------------------- */
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-Light.otf") format("opentype");
-    font-weight: 300;
-    font-style: normal;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-LightItalic.otf") format("opentype");
-    font-weight: 300;
-    font-style: italic;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-Regular.otf") format("opentype");
-    font-weight: 450;
-    font-style: normal;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-Italic.otf") format("opentype");
-    font-weight: 450;
-    font-style: italic;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-Bold.otf") format("opentype");
-    font-weight: 800;
-    font-style: normal;
-    font-display: auto;
-}
-
-@font-face {
-    font-family: "Dennis Sans";
-    src: url("../fonts/NeueMontreal-BoldItalic.otf") format("opentype");
-    font-weight: 800;
-    font-style: italic;
-    font-display: auto;
-}
-
 /* ------------------------- Colors -------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 :root {
     --color-dark: #1c1d20;
     --color-dark-dark: #141517;
     --color-light: #ffffff;
-    --color-blue: #455ce9;
-    --color-blue-dark: #334bd3;
+    --color-blue: #495f57;
+    --color-blue-dark: #495f57;
     --color-gray: #999d9e;
     --color-lightgray: #e9eaeb;
     --color-white: #ffffff;
@@ -122,7 +73,7 @@ ul {
 
 body {
     -webkit-font-smoothing: antialiased;
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     color: var(--color-text);
     line-height: 1.6;
     font-weight: 450;
@@ -210,7 +161,7 @@ strong:last-child {
 }
 
 h1 {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-size: clamp(3.25em, 7vw, 8em);
@@ -220,7 +171,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-size: calc(clamp(3.25em, 5vw, 4.5em) * 0.75);
@@ -229,7 +180,7 @@ h2 {
 }
 
 h3 {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-size: clamp(2.66em, 4.65vw, 5.32em);
@@ -238,7 +189,7 @@ h3 {
 }
 
 h4 {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-size: clamp(1.55em, 2.3vw, 2.5em);
@@ -247,7 +198,7 @@ h4 {
 }
 
 h5 {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     font-size: 0.6em;
@@ -259,7 +210,7 @@ h5 {
 }
 
 p {
-    font-family: "Dennis Sans", sans-serif;
+   font-family: "Tajawal", sans-serif;
     font-weight: 450;
     font-style: normal;
     color: var(--text);
@@ -679,7 +630,7 @@ video.overlay {
     height: clamp(9em, 12vw, 11em);
     border-radius: 50%;
     border: 0;
-    background: var(--color-dark);
+    background: #e2b771;
 }
 
 .btn-round .btn-text {
@@ -806,7 +757,7 @@ video.overlay {
 
 .btn-hamburger .btn-click {
     border: 0;
-    background-color: var(--color-dark);
+    background-color: #e2b771;
     transition:
         background-color 0.25s cubic-bezier(0.36, 0, 0.66, 0),
         box-shadow 0.25s cubic-bezier(0.36, 0, 0.66, 0);
