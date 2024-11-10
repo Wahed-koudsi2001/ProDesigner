@@ -3664,3 +3664,7 @@ main.touch .case-intro-image .btn-wrap {
         height: clamp(7em, 10vw, 10em);
     }
 }
+.wahed-h1 {
+    font-size: calc(clamp(3.25em, 7vw, 8em) * 0.4);
+    line-height: 1.32;
+}
